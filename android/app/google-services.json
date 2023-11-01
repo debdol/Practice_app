@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "874574676312",
+    "project_id": "newpracticeapp-45c8b",
+    "storage_bucket": "newpracticeapp-45c8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874574676312:android:4ded0772c0e60cef63652d",
+        "android_client_info": {
+          "package_name": "com.newpractice_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874574676312-onj2ppiupe9pq644firakk4rocb56grn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newpractice_app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "874574676312-pgv537sctgnp40gsbcnvhp56mev1msis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA6w9_vysQ60jKv-ZQyMh7hErXJuL0sMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874574676312-pgv537sctgnp40gsbcnvhp56mev1msis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
