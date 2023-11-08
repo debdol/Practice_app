@@ -8,6 +8,7 @@ import { Button as RegButton } from 'native-base';
 import { NativeBaseProvider, Box, extendTheme, Button, HStack, Checkbox, Input, VStack, IconButton } from "native-base";
 import Clipboard, { useClipboard } from '@react-native-community/clipboard';
 import { Calendar, LocaleConfig } from 'react-native-calendars';
+import RandomFunc from './Components/RandomFunc';
 
 
 
@@ -27,7 +28,7 @@ const App = () => {
 
   const focusPoint = useRef(null);
   const onClickHandler = () => {
-    console.log(focusPoint.current)
+    // console.log(focusPoint.current)
     focusPoint.current.focus();
   }
   return (
@@ -65,7 +66,7 @@ const App = () => {
       <TouchableOpacity onPress={onClickHandler}>
         <Text>Action</Text>
       </TouchableOpacity>
-
+      <RandomFunc />
     </NativeBaseProvider>
   )
 }
